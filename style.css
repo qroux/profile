@@ -1,0 +1,127 @@
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+body {
+  text-align: center;
+  background-color: #c7ddc5;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #161616;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+
+
+/*CUSTOM CSS*/
+
+#profil-picture {
+  border-radius: 50%;
+  width: 500px;
+}
+
+#occupation {
+  font-family: 'Raleway', sans-serif;
+  color: #161616;
+}
+
+.container {
+  background-color: #c7ddc5;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 1%;
+}
+.btn-red {
+  background-color: #c62121;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 1%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#films {
+    background-color: #ffffff;
+    margin: 500px 0;
+}
+
+/*#films tr {
+  padding: 600px;
+}*/
+
+
+
+/*Specs
+
+This is an example of what you need to create. Here is a list of CSS rules to write:
+Body
+
+Pick a nice background-color, font-family, color, font-size and line-height for the <body>. Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.).
+Headers
+
+    Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+    Choose harmonious font-size and line-height for headers
+    Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you'll see that the font-size of their headers is quite small.
+
+Links
+
+    Change the color & text-decoration of all the links
+    Add hover effects to links using the pseudo-class a:hover.
+*/
